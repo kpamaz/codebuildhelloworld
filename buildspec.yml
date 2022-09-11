@@ -1,5 +1,11 @@
 version: 0.2
+
+env:
+	variables:
+		DIRPATH = "project2 generic"
+  
+  
 phases:
  install:
     commands:
-      - echo "$PATH"
+      - echo "$DIRPATH"
