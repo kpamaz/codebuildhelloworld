@@ -9,6 +9,7 @@ phases:
  install:
     commands:
       - echo Hello World
-      - cd "$PATH"
+      - echo "$PATH"
+      - cd $PATH
       - pwd
 
