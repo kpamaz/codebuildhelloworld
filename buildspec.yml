@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    PATH: "my textbox space"
+    PATH: "my testbox space"
 
 
 phases:
