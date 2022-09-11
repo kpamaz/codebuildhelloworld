@@ -4,5 +4,5 @@ phases:
  install:
     commands:
       - echo Hello World
-      - cd "my testbox space"
+      - cd my\ testbox\ space
       - pwd
