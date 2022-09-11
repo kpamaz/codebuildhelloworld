@@ -2,5 +2,5 @@ version: 0.2
 phases:
  install:
     commands:
-      - pwd
-      - echo Hello World
+      -pwd
+      -echo Hello World
