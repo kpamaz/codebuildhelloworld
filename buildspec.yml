@@ -1,14 +1,8 @@
 version: 0.2
-phases:
-  build:
-    commands:
-      - pwd && echo "codebuild starts initially in this directory"
-      - cat /codebuild/output/tmp/script.sh
-      - cd /tmp
-      - pwd && echo "obviously we are in tmp now"
-      - mkdir /tmp/folder\ with\ space
-      - touch /tmp/folder\ with\ space\somefile.txt
-      - cd /tmp/folder\ with\ space
-      - ls -lah && echo "expecting this to list somefile.txt"
-      - pwd && echo "codebuild has reset the current directory"
 
+phases:
+ build:
+    commands:
+      - echo Hello World
+      - cd testboxpsace
+      - pwd
