@@ -1,8 +1,14 @@
 
 version: 0.2
+
+env:
+  variables:
+    PATH = "my textbox space"
+
+
 phases:
  install:
     commands:
       - echo Hello World
-      - cd my\ testbox\ space
+      - cd "$PATH"
       - pwd
