@@ -3,4 +3,5 @@ phases:
  install:
     commands:
       - echo Hello World
+      - cd "my textbox space"
       - pwd
