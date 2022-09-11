@@ -6,10 +6,10 @@ env:
 
 
 phases:
- install:
+ build:
     commands:
       - echo Hello World
-      - echo "$PATH"
+      - echo $PATH
       - cd $PATH
       - pwd
 
