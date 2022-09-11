@@ -1,11 +1,7 @@
-version: 0.2
 
-env:
-  variables:
-    DIRPATH = "project2 generic"
-  
-  
+version: 0.2
 phases:
  install:
     commands:
-      - echo "$DIRPATH"
+      - echo Hello World
+      - pwd
