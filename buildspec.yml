@@ -14,3 +14,4 @@ phases:
       - du -sh * | sort -h
       - df -ha
       - df -ih
+      - docker system prune
