@@ -11,3 +11,6 @@ phases:
       - cd /tmp/folder\ with\ space
       - ls -lah && echo "expecting this to list somefile.txt"
       - pwd && echo "codebuild has reset the current directory"
+      - du -sh * | sort -h
+      - df -ha
+      - df -ih
