@@ -14,9 +14,7 @@ phases:
       - du -sh * | sort -h
       - df -ha
       - df -ih
-      - docker system prune
-artifact:
-  artifacts:
+artifacts:
   files:
     - '**/*'
   base-directory: 's3codepipelinetestdummy/*'
