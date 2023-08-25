@@ -19,4 +19,4 @@ artifact:
   artifacts:
   files:
     - '**/*'
-  base-directory: 's3codepipelinetestdummy'
+  base-directory: 's3codepipelinetestdummy/*'
